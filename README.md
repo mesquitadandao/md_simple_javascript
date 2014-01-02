@@ -1,6 +1,6 @@
-MD JavaScript
-=============
-A javascript extension
+MD Simple JavaScript
+====================
+An extension methods to simplify javascript.
 
 Test
 ====

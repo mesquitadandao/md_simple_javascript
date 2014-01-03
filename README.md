@@ -49,12 +49,12 @@ Implemented Methods
 [2,3].uniq();
 
 /** return Array "b","B" **/
-['a','b','c','a','B','c'].uniq();
-['b','B'].uniq();
+["a","b","c","a","B","c"].uniq();
+["b","B"].uniq();
 
 /** return Array "b",2,"B" **/
-['a','b','c',2,'a','B','c'].uniq();
-['b',2,'B'].uniq();
+["a","b","c",2,"a","B","c"].uniq();
+["b",2,"B"].uniq();
 ```
 
 --------------------

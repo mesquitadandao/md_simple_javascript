@@ -4,8 +4,6 @@ DM Simple JavaScript
 
 An extension methods to simplify javascript.
 
---------------------
-
 
 Test
 --------------------
@@ -14,6 +12,28 @@ Test
 
 Implemented Methods
 --------------------
+
+--------------------
+
+### Array
+
+> **NOTE:** Methods to simplify the handling of javascript array.
+
+**uniq()** Simplify uniqueness. Exemple:
+
+```
+/** return Array 2,3 **/
+[1,2,3,1].uniq();
+[2,3].uniq();
+
+/** return Array "b","B" **/
+["a","b","c","a","B","c"].uniq();
+["b","B"].uniq();
+
+/** return Array "b",2,"B" **/
+["a","b","c",2,"a","B","c"].uniq();
+["b",2,"B"].uniq();
+```
 
 ### String
 
@@ -35,26 +55,6 @@ Implemented Methods
 "Hello Word".gsub(/O/, 0);
 "Hello Word".gsub("wO", 0);
 "Hello Word".gsub(/wO/, 0);
-```
-
-### Array
-
-> **NOTE:** Methods to simplify the handling of javascript array.
-
-**uniq()** Simplify uniqueness. Exemple:
-
-```
-/** return Array 2,3 **/
-[1,2,3,1].uniq();
-[2,3].uniq();
-
-/** return Array "b","B" **/
-["a","b","c","a","B","c"].uniq();
-["b","B"].uniq();
-
-/** return Array "b",2,"B" **/
-["a","b","c",2,"a","B","c"].uniq();
-["b",2,"B"].uniq();
 ```
 
 --------------------

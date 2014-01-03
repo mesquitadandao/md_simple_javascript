@@ -59,7 +59,7 @@ Implemented Methods
 
 --------------------
 
-@Demo [DM Simple JavaScript](http://mesquitadandao.github.io/dm_simple_javascript).
+@Last Release [DM Simple JavaScript (Download and Demo)](http://mesquitadandao.github.io/dm_simple_javascript).
 
 @License [Public Domain (Unlicense)](http://choosealicense.com/licenses/unlicense/).
 

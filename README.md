@@ -59,8 +59,8 @@ Implemented Methods
 
 --------------------
 
-@Last Release [DM Simple JavaScript (Download and Demo)](http://mesquitadandao.github.io/dm_simple_javascript).
+@Last Release <a href="http://mesquitadandao.github.io/md_simple_javascript" target="_blank">DM Simple JavaScript (Download and Demo)</a>.
 
-@License [Public Domain (Unlicense)](http://choosealicense.com/licenses/unlicense/).
+@License <a href="http://choosealicense.com/licenses/unlicense" target="_blank">Public Domain (Unlicense)</a>.
 
-@Author [Mesquita Dandão](http://mesquitadandao.github.io/).
+@Author <a href="http://mesquitadandao.github.io" target="_blank">Mesquita Dandão</a>.

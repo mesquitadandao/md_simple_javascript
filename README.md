@@ -22,17 +22,17 @@ Implemented Methods
 **uniq()** Simplify uniqueness. Exemple:
 
 ```
-/** return Array 2,3 **/
+/** return Array [1,2,3] **/
 [1,2,3,1].uniq();
-[2,3].uniq();
+[1,2,3].uniq();
 
-/** return Array "b","B" **/
+/** return Array ["a","b","c","B"] **/
 ["a","b","c","a","B","c"].uniq();
-["b","B"].uniq();
+["a","b","c","B"].uniq();
 
-/** return Array "b",2,"B" **/
+/** return Array ["a","b","c",2,"B"] **/
 ["a","b","c",2,"a","B","c"].uniq();
-["b",2,"B"].uniq();
+["a","b","c",2,"B"].uniq();
 ```
 
 ### String
@@ -42,15 +42,15 @@ Implemented Methods
 **gsub(search, replacement)** Simplify replacement. Exemple:
 
 ```
-/** return String Hell0 W0rd **/
+/** return String "Hell0 W0rd" **/
 "Hello Word".gsub("o", 0);
 "Hello Word".gsub(/o/, 0);
 
-/** return String Hello 0rd **/
+/** return String "Hello 0rd" **/
 "Hello Word".gsub("Wo", 0);
 "Hello Word".gsub(/Wo/, 0);
 
-/** return String Hello Word **/
+/** return String "Hello Word" **/
 "Hello Word".gsub("O", 0);
 "Hello Word".gsub(/O/, 0);
 "Hello Word".gsub("wO", 0);

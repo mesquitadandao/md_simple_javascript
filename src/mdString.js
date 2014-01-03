@@ -1,12 +1,12 @@
-String.prototype.gsub = function(finder, replace){
+String.prototype.gsub = function(search, replacement){
 	var regularExpression = {
 		String: function(){
-			return new RegExp(finder, "g"); 
+			return new RegExp(search, "g"); 
 		},
 		RegExp: function(index, element){
-			return new RegExp(finder.source, "g"); ; 
+			return new RegExp(search.source, "g"); ; 
 		}
 	};
-	var finderRegular = regularExpression[finder.constructor.name]();
-	return this.replace(finderRegular, replace);
+	var searchRegular = regularExpression[search.constructor.name]();
+	return this.replace(searchRegular, replacement);
 };

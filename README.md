@@ -1,4 +1,4 @@
-DM Simple JavaScript
+MD Simple JavaScript
 ====================
 
 
